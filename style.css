@@ -1,0 +1,410 @@
+F@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/SF-Pro-Display-Regular.otf") format("otf"),
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  padding: 0;
+  font-family: 'SF Pro Display', sans-serif;
+  overflow-x: hidden;
+  color: #110109;
+}
+
+header{
+  display: flex;
+  height: 100px;
+  background-color: #007AFF;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  align-items: center;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 95px;
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+h2{
+  font-weight: 900;
+  font-size: 210px;
+  line-height: 251px;
+  color: #F5F5F5;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h3{
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 115px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h4{
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 93.84%;
+  text-align: center;
+}
+
+h5{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+a{
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+a:visited{
+  color: inherit;
+}
+
+hr{
+  height: 40;
+  border: 1px solid #F5F5F5;
+  border-radius:2px;
+}
+
+.container-center{
+  display: flex;
+  width:100%;
+  max-width: 1320px;
+  margin: 0% auto;
+  justify-content: center;
+}
+
+.navigation{
+  display: flex;
+  width: 866px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #007AFF;
+  color: #F5F5F5;
+  height: 870px;
+  flex-direction: column;
+}
+
+.main img{
+  width: 335px;
+  height: 205px;
+}
+
+.button{
+  font-family: 'Unbounded';
+  font-size: 16px;
+  line-height: 20px;
+  color: #F5F5F5;
+  text-transform: uppercase;
+  padding: 20px 60px;
+  margin-top: 12px;
+  margin-bottom: 52px;
+  border: 3px solid #F5F5F5;
+  border-radius: 40px;
+  transition: background.2s
+}
+
+.screen{
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column
+}
+
+.about-background{
+  width: 1920px;
+  height: 836px;
+  display: flex;
+  justify-content: center;
+  background: url("img/about.svg");
+}
+
+.about{
+  margin-top: 100px;
+  width: 1660px;
+  display: flex;
+  flex-flow: column;
+  gap: 120px;
+}
+
+.about-group{
+  display: flex;
+  justify-content: center;
+}
+
+.about-rect{
+  display: flex;
+  width: 426px;
+  height: 300px;
+  align-items: center;
+  flex-flow: column;
+  border-radius: 30px;
+}
+
+.skills-background{
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  justify-content: center;
+  background: url("img/skills.svg");
+}
+
+.skills{
+  margin-top: 100px;
+  width: 1660px;
+  display: flex;
+  flex-flow: column;
+  gap: 100px;
+}
+
+.skills-group{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.skill-box1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  width: 640px;
+  height: 610px;
+  background-color:#F5F5F5;
+  border-radius: 30px;
+}
+
+.skill-box-group{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.naviki-box{
+  display: flex;
+  width: 470px;
+  height: 376px;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
+
+.navik{
+  display: flex;
+  background-color: #007AFF;
+  border-radius: 30px;
+  color: #F5F5F5;
+  padding: 4px 40px;
+}
+
+.navik-html-css{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.skill-box2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  width: 640px;
+  height: 360px;
+  background-color:#F5F5F5;
+  border-radius: 30px;
+}
+
+.program-box{
+  display: flex;
+  width: 182px;
+  height: 182px;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.program-column{
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+
+.cat{
+  width: 640px;
+  height: 210px;
+  background-color: #007AFF;
+  border-radius: 30px;
+}
+
+.cat img{
+  width: 266.85px;
+  height: 155px;
+}
+
+.experience-background{
+  width: 1920px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  background: url("img/experience.svg");
+}
+
+.experience{
+  margin-top: 100px;
+  width: 1660px;
+  display: flex;
+  flex-flow: column;
+  gap: 100px;
+}
+
+.experience-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 210px;
+}
+
+.experience-data{
+  width: 300px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.experience-data h3{
+  font-size: 80px;
+  line-height: 95px;
+  text-align: center;
+  color:#007AFF;
+}
+
+.cases-background{
+  width: 1920px;
+  height: 1035px;
+  display: flex;
+  justify-content: center;
+  background: url("img/cases.svg");
+}
+
+.cases{
+  margin-top: 100px;
+  width: 1660px;
+  display: flex;
+  flex-flow: column;
+  gap: 100px;
+}
+
+.cases a{
+  color: #110109;
+}
+
+.cases-group{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.cases-row{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.case{
+  width: 300px;
+  height: 192px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column
+}
+
+.case img{
+  width: 149px;
+  height: 134.5px;
+}
+
+.case a{
+  text-decoration: none;
+}
+
+.contacts-background{
+  width: 1920px;
+  height: 605px;
+  display: flex;
+  justify-content: center;
+  background-color: #007AFF;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.contacts{
+  margin-top: 100px;
+  width: 1660px;
+  display: flex;
+  flex-flow: column;
+  gap: 40px;
+}
+
+.contacts-group{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contacts-box{
+  display: flex;
+  align-items: center;
+  width: 525px;
+  height: 285px;
+  background-color:#F5F5F5;
+  border-radius: 30px;
+}
+
+.contacts-inf{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 226px;
+  margin-left: 50px;
+  align-items: flex-start;
+}
+
+.contacts-inf img{
+  width: 110px;
+  height: 110px;
+}
+
+.contacts-inf h5{
+  width: 370px;
+  height: 74px;
+}
